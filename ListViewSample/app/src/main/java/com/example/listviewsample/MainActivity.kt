@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val lvMenu = findViewById<ListView>(R.id.lvMenu)
-        lvMenu.onItemClickListener = ListItemClickListener()
+        lvMenu.onItemClickListener = ListItemClickListener() // Kotlinだとプロパティへのアクセスで自動でセッターが呼ばれるんですって
     }
 
     private inner class ListItemClickListener : AdapterView.OnItemClickListener {
