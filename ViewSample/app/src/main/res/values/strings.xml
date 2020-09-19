@@ -2,4 +2,6 @@
     <string name="app_name">画面部品</string>
     <string name="tv_msg">名前を入れてね</string>
     <string name="bt_save">保存</string>
+    <string name="cb_drink">ドリンク</string>
+    <string name="cb_food">フード</string>
 </resources>
