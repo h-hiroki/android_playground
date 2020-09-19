@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ViewSample</string>
+    <string name="app_name">画面部品</string>
+    <string name="tv_msg">名前を入れてね</string>
 </resources>
