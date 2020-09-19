@@ -13,9 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // リスナ設定
-        val btClick = findViewById<Button>(R.id.btClick)
         val listener = HelloListener()
+        val btClick = findViewById<Button>(R.id.btClick)
         btClick.setOnClickListener(listener)
+        val btClear = findViewById<Button>(R.id.btClear)
+        btClear.setOnClickListener(listener)
     }
 
     // イベントハンドラ生成
@@ -23,9 +25,22 @@ class MainActivity : AppCompatActivity() {
         override fun onClick(view: View) {
             val input = findViewById<EditText>(R.id.etName)
             val output = findViewById<TextView>(R.id.tvOutput)
-            val inputStr = input.text.toString()
 
-            output.text = inputStr + "さん、チース！"
+            when (view.id) {
+                R.id.btClick -> {
+                    var inputStr = input.text.toString()
+
+                    if (inputStr == "") {
+                        output.text = "お名前入力して出直してね"
+                    } else {
+                        output.text = inputStr + "さん、チース！"
+                    }
+                }
+                R.id.btClear -> {
+                    input.setText("") // EditTextのtextプロパティはEditable型でStringを入れられない。専用メソッドを入れてtextを変更する
+                    output.text = ""
+                }
+            }
         }
     }
 }
