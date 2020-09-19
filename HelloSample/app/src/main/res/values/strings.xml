@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">HelloSample</string>
+    <string name="app_name">イベントとリスナ</string>
+    <string name="tv_name">名前を入れてね</string>
+    <string name="bt_click">表示</string>
 </resources>
