@@ -2,7 +2,7 @@ package com.example.menusample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import android.view.MenuItem
 import android.widget.TextView
 
 class MenuThanksActivity : AppCompatActivity() {
@@ -18,9 +18,13 @@ class MenuThanksActivity : AppCompatActivity() {
 
         tvMenuName.text = menuName
         tvMenuPrice.text = menuPrice
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    fun onBackButtonClick(view: View) {
-        finish() // 自身を終了させることでActivityが終了する。それにより前の画面に戻る
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
