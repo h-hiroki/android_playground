@@ -3,6 +3,8 @@ package com.example.menusample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
@@ -24,6 +26,23 @@ class MainActivity : AppCompatActivity() {
         lvMenu.onItemClickListener = ListItemClickListener()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_options_menu_list, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.menuListOptionTeishoku -> _menuList = createTeishokuList()
+            R.id.menuListOptionCurry -> _menuList = createCurryList()
+        }
+
+        val lvMenu = findViewById<ListView>(R.id.lvMenu)
+        val adapter = SimpleAdapter(applicationContext, _menuList, R.layout.row, FROM, TO)
+        lvMenu.adapter = adapter
+        return super.onOptionsItemSelected(item)
+    }
+
     private fun createTeishokuList(): MutableList<MutableMap<String, Any>> {
         val menuList: MutableList<MutableMap<String, Any>> = mutableListOf()
         var menu = mutableMapOf("name" to "からあげ定食", "price" to 800, "desc" to "からあげにサラダ、ご飯、スープつくよ。")
@@ -31,6 +50,17 @@ class MainActivity : AppCompatActivity() {
         menu = mutableMapOf("name" to "ハンバーグ定食", "price" to 850, "desc" to "ハンバーグにサラダ、ご飯、スープつくよ。")
         menuList.add(menu)
         menu = mutableMapOf("name" to "カキフライ定食", "price" to 850, "desc" to "カキフライとご飯だけ。")
+        menuList.add(menu)
+        return menuList
+    }
+
+    private fun createCurryList(): MutableList<MutableMap<String, Any>> {
+        val menuList: MutableList<MutableMap<String, Any>> = mutableListOf()
+        var menu = mutableMapOf("name" to "からあげカレー", "price" to 800, "desc" to "からあげonカレー")
+        menuList.add(menu)
+        menu = mutableMapOf("name" to "ハンバーグカレー", "price" to 850, "desc" to "ハンバーグonカレー")
+        menuList.add(menu)
+        menu = mutableMapOf("name" to "カキフライカレー", "price" to 850, "desc" to "カキフライonカレー")
         menuList.add(menu)
         return menuList
     }
