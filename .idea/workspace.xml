@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1bd10f1-13ca-4f27-afb4-31964f2232cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ViewSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxJavaSample/.idea/modules/RxjavaSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxJavaSample/.idea/modules/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databinding/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewSample/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ViewSample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewSample/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ViewSample/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databinding/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/databinding/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hi9XRcVYcgj1YlegTv9hQXiKuC" />
@@ -32,6 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,6 +54,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1731" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603631039324">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1731" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1603631039324" />
+    <state x="-1563" y="154" key="CommitChangelistDialog2" timestamp="1603631032125">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1563" y="154" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1603631032125" />
     <state x="399" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1600483282527">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

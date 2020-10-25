@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+
+        <variable
+            name="counter"
+            type="int" />
+
+        <variable
+            name="inputText"
+            type="String" />
+
+        <variable
+            name="enableAlarm"
+            type="boolean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity" />
+
+        <TextView
+            android:id="@+id/sampleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="default text" />
+
+        <Button
+            android:id="@+id/bindbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Binding!" />
+
+        <TextView
+            android:id="@+id/counterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{`Count:` + counter}" />
+
+        <Button
+            android:id="@+id/countUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COUNT UP!" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@={inputText}"/>
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="@={enableAlarm}"
+            android:padding="16dp"
+            android:text="アラーム"/>
+
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="@{enableAlarm ? View.VISIBLE : View.GONE}"/>
+    </LinearLayout>
+</layout>
