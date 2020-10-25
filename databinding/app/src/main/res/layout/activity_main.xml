@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="android.view.View"/>
+
         <variable
             name="counter"
             type="int" />
@@ -11,6 +13,10 @@
         <variable
             name="inputText"
             type="String" />
+
+        <variable
+            name="enableAlarm"
+            type="boolean" />
     </data>
 
     <LinearLayout
@@ -55,5 +61,17 @@
             android:layout_height="wrap_content"
             android:text="CONFIRM"/>
 
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="@={enableAlarm}"
+            android:padding="16dp"
+            android:text="アラーム"/>
+
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="@{enableAlarm ? View.VISIBLE : View.GONE}"/>
     </LinearLayout>
 </layout>
