@@ -2,6 +2,7 @@ package com.example.databinding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import com.example.databinding.databinding.ActivityMainBinding
 
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         initSample(binding)
         initCounter(binding)
+        initEditTextConfirm(binding)
     }
 
     private fun initSample(binding: ActivityMainBinding) {
@@ -26,6 +28,12 @@ class MainActivity : AppCompatActivity() {
         binding.counter = 1
         binding.countUpButton.setOnClickListener {
             binding.counter += 1
+        }
+    }
+
+    private fun initEditTextConfirm(binding: ActivityMainBinding) {
+        binding.confirmButton.setOnClickListener {
+            Toast.makeText(this, binding.inputText, Toast.LENGTH_SHORT).show()
         }
     }
 }

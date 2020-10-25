@@ -7,6 +7,10 @@
         <variable
             name="counter"
             type="int" />
+
+        <variable
+            name="inputText"
+            type="String" />
     </data>
 
     <LinearLayout
@@ -38,6 +42,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="COUNT UP!" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@={inputText}"/>
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM"/>
 
     </LinearLayout>
 </layout>
