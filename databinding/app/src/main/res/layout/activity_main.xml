@@ -3,6 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="counter"
+            type="int" />
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -10,15 +16,28 @@
         tools:context=".MainActivity">
 
         <TextView
-            android:id="@+id/sample_text_view"
+            android:id="@+id/sampleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:text="default text" />
 
         <Button
-            android:id="@+id/sample_button"
+            android:id="@+id/bindbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Binding!" />
+
+        <TextView
+            android:id="@+id/counterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{`Count:` + counter}" />
+
+        <Button
+            android:id="@+id/countUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COUNT UP!" />
+
     </LinearLayout>
 </layout>
