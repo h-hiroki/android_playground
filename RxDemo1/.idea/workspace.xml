@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70fa6586-1226-4a44-bf8b-9931dd7cf7b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="dev/rxjava_demo1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jg0Eg4JCsoZBqhM4bojPpNVwXK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70fa6586-1226-4a44-bf8b-9931dd7cf7b0" name="Default Changelist" comment="" />
+      <created>1604210316459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604210316459</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add scheduler">
+      <created>1604212529583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604212529583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add disposable">
+      <created>1604212881161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604212881161</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add disposableobserver">
+      <created>1604213237067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604213237067</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add composite disposable">
+      <created>1604213624549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604213624549</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor">
+      <created>1604214735551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604214735551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete comment">
+      <created>1604215061573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604215061573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add scheduler" />
+    <MESSAGE value="add disposable" />
+    <MESSAGE value="add disposableobserver" />
+    <MESSAGE value="add composite disposable" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="delete comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete comment" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="234" key="AndroidProcessChooserDialog" timestamp="1604211775269">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="581" y="234" key="AndroidProcessChooserDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604211775269" />
+    <state x="351" y="64" key="CommitChangelistDialog2" timestamp="1604215061411">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="351" y="64" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604215061411" />
+    <state width="1392" height="285" key="GridCell.Tab.0.bottom" timestamp="1604212994400">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994400" />
+    <state width="1392" height="285" key="GridCell.Tab.0.center" timestamp="1604212994399">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994399" />
+    <state width="1392" height="285" key="GridCell.Tab.0.left" timestamp="1604212994398">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994398" />
+    <state width="1392" height="285" key="GridCell.Tab.0.right" timestamp="1604212994399">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994399" />
+    <state width="1392" height="285" key="GridCell.Tab.1.bottom" timestamp="1604212994402">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994402" />
+    <state width="1392" height="285" key="GridCell.Tab.1.center" timestamp="1604212994401">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994401" />
+    <state width="1392" height="285" key="GridCell.Tab.1.left" timestamp="1604212994400">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994400" />
+    <state width="1392" height="285" key="GridCell.Tab.1.right" timestamp="1604212994401">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="285" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212994401" />
+    <state x="142" y="100" key="MergeDialog" timestamp="1604222196314">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="142" y="100" key="MergeDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604222196314" />
+    <state x="431" y="184" key="MultipleFileMergeDialog" timestamp="1604222196383">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="431" y="184" key="MultipleFileMergeDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604222196383" />
+    <state x="288" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604212329775">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="288" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604212329775" />
+    <state x="464" y="181" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604222184662">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="464" y="181" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604222184662" />
+  </component>
+</project>
