@@ -8,7 +8,9 @@ import android.widget.TextView;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.tvGreeting);
         myObservable = Observable.just(greeting);
+        myObservable.subscribeOn(Schedulers.io());
+        myObservable.observeOn(AndroidSchedulers.mainThread());
 
         myObserver = new Observer<String>() {
             @Override
