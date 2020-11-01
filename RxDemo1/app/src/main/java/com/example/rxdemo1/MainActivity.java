@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.tvGreeting);
         myObservable = Observable.just(greeting);
-        myObservable.subscribeOn(Schedulers.io());
-        myObservable.observeOn(AndroidSchedulers.mainThread());
+//        myObservable.subscribeOn(Schedulers.io());
+//        myObservable.observeOn(AndroidSchedulers.mainThread());
 
 //        myObserver = new Observer<String>() {
 //            @Override
@@ -81,8 +81,14 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
-        compositeDisposable.add(myObserver);
-        myObservable.subscribe(myObserver);
+//        compositeDisposable.add(myObserver);
+//        myObservable.subscribe(myObserver);
+
+        compositeDisposable.add(
+                myObservable.subscribeOn(Schedulers.io())
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .subscribeWith(myObserver)
+        );
 
 
 
@@ -104,8 +110,12 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        compositeDisposable.add(myObserver2);
-        myObservable.subscribe(myObserver2);
+//        compositeDisposable.add(myObserver2);
+//        myObservable.subscribe(myObserver2);
+
+        compositeDisposable.add(
+                myObservable.subscribeWith(myObserver2)
+        );
 
     }
 
