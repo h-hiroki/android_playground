@@ -8,10 +8,9 @@ import android.util.Log;
 import java.util.ArrayList;
 
 import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.functions.Function;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 
@@ -22,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private DisposableObserver<Student> myObserver;
 
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
-//    private String[] greetings = {"Hello A", "Hello B", "Hello C"};
-//    private Integer[] nums = {1,2,3,4,5};
 
 
     @Override
@@ -31,23 +28,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myObservable = Observable.create(new ObservableOnSubscribe<Student>() {
-            @Override
-            public void subscribe(ObservableEmitter<Student> emitter) throws Exception {
+        myObservable = Observable.create((emitter) -> {
+            ArrayList<Student> studentArrayList = getStudents();
 
-                ArrayList<Student> studentArrayList = getStudents();
-
-                for(Student student:studentArrayList) {
-                    emitter.onNext(student);
-                }
-
-                emitter.onComplete();
+            for(Student student:studentArrayList) {
+                emitter.onNext(student);
             }
+
+            emitter.onComplete();
         });
 
         compositeDisposable.add(
-                myObservable.subscribeOn(Schedulers.io())
+                myObservable
+                        .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
+                        .map(new Function<Student, Student>() {
+                            @Override
+                            public Student apply(Student student) throws Exception {
+                                student.setName(student.getName().toUpperCase());
+                                return student;
+                            }
+                        })
                         .subscribeWith(getObserver())
         );
 
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         myObserver = new DisposableObserver<Student>() {
             @Override
             public void onNext(Student s) {
-                Log.i(TAG, "onNext invoked" + s.getEmail());
+                Log.i(TAG, "onNext invoked with " + s.getName());
             }
 
             @Override
@@ -85,27 +86,27 @@ public class MainActivity extends AppCompatActivity {
         students.add(student1);
 
         Student student2 = new Student();
-        student1.setName("name2");
-        student1.setEmail("name1@hugahuga");
-        student1.setAge(29);
+        student2.setName("name2");
+        student2.setEmail("name1@hugahuga");
+        student2.setAge(29);
         students.add(student2);
 
         Student student3 = new Student();
-        student1.setName("name3");
-        student1.setEmail("name1@hugahuga");
-        student1.setAge(29);
+        student3.setName("name3");
+        student3.setEmail("name1@hugahuga");
+        student3.setAge(29);
         students.add(student3);
 
         Student student4 = new Student();
-        student1.setName("name4");
-        student1.setEmail("name1@hugahuga");
-        student1.setAge(29);
+        student4.setName("name4");
+        student4.setEmail("name1@hugahuga");
+        student4.setAge(29);
         students.add(student4);
 
         Student student5 = new Student();
-        student1.setName("name5");
-        student1.setEmail("name1@hugahuga");
-        student1.setAge(29);
+        student5.setName("name5");
+        student5.setEmail("name1@hugahuga");
+        student5.setAge(29);
         students.add(student5);
 
         return students;
