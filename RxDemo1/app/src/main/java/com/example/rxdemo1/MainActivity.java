@@ -14,18 +14,18 @@ import io.reactivex.schedulers.Schedulers;
 public class MainActivity extends AppCompatActivity {
 
     private final static String TAG = "myApp";
-//    private String[] greetings = {"Hello A", "Hello B", "Hello C"};
     private Observable<String> myObservable;
     private DisposableObserver<String> myObserver;
 
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
+    private String[] greetings = {"Hello A", "Hello B", "Hello C"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myObservable = Observable.just("Hello A", "Hello B", "Hello C");
+        myObservable = Observable.fromArray(greetings);
 
         compositeDisposable.add(
                 myObservable.subscribeOn(Schedulers.io())
