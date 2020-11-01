@@ -10,7 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70fa6586-1226-4a44-bf8b-9931dd7cf7b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/rxdemo1/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/rxdemo1/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/rxdemo1/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/rxdemo1/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/rxdemo1/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/rxdemo1/MainActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/rxdemo1/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/rxdemo1/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/rxdemo1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/rxdemo1/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604215061573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="from array">
+      <created>1604223954171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604223954171</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,49 +203,50 @@
     <MESSAGE value="add composite disposable" />
     <MESSAGE value="refactor" />
     <MESSAGE value="delete comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete comment" />
+    <MESSAGE value="from array" />
+    <option name="LAST_COMMIT_MESSAGE" value="from array" />
   </component>
   <component name="WindowStateProjectService">
     <state x="581" y="234" key="AndroidProcessChooserDialog" timestamp="1604211775269">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="581" y="234" key="AndroidProcessChooserDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604211775269" />
-    <state x="351" y="64" key="CommitChangelistDialog2" timestamp="1604215061411">
+    <state x="134" y="64" width="1306" height="795" key="CommitChangelistDialog2" timestamp="1604223953648">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="351" y="64" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604215061411" />
-    <state width="1392" height="285" key="GridCell.Tab.0.bottom" timestamp="1604223782003">
+    <state x="134" y="64" width="1306" height="795" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223953648" />
+    <state width="1392" height="285" key="GridCell.Tab.0.bottom" timestamp="1604224167080">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782003" />
-    <state width="1392" height="285" key="GridCell.Tab.0.center" timestamp="1604223782003">
+    <state width="1392" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167080" />
+    <state width="1392" height="285" key="GridCell.Tab.0.center" timestamp="1604224167080">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782003" />
-    <state width="1392" height="285" key="GridCell.Tab.0.left" timestamp="1604223782002">
+    <state width="1392" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167080" />
+    <state width="1392" height="285" key="GridCell.Tab.0.left" timestamp="1604224167079">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782002" />
-    <state width="1392" height="285" key="GridCell.Tab.0.right" timestamp="1604223782003">
+    <state width="1392" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167079" />
+    <state width="1392" height="285" key="GridCell.Tab.0.right" timestamp="1604224167080">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782003" />
-    <state width="1392" height="285" key="GridCell.Tab.1.bottom" timestamp="1604223782005">
+    <state width="1392" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167080" />
+    <state width="1392" height="285" key="GridCell.Tab.1.bottom" timestamp="1604224167081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782005" />
-    <state width="1392" height="285" key="GridCell.Tab.1.center" timestamp="1604223782004">
+    <state width="1392" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167081" />
+    <state width="1392" height="285" key="GridCell.Tab.1.center" timestamp="1604224167081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782004" />
-    <state width="1392" height="285" key="GridCell.Tab.1.left" timestamp="1604223782004">
+    <state width="1392" height="285" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167081" />
+    <state width="1392" height="285" key="GridCell.Tab.1.left" timestamp="1604224167080">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782004" />
-    <state width="1392" height="285" key="GridCell.Tab.1.right" timestamp="1604223782004">
+    <state width="1392" height="285" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167080" />
+    <state width="1392" height="285" key="GridCell.Tab.1.right" timestamp="1604224167081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="285" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604223782004" />
+    <state width="1392" height="285" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604224167081" />
     <state x="142" y="100" key="MergeDialog" timestamp="1604222196314">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -245,5 +267,16 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="464" y="181" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1604222184662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/rxdemo1/MainActivity.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
