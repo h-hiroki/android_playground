@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1bd10f1-13ca-4f27-afb4-31964f2232cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RxJavaSample/.idea/modules/RxjavaSample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxJavaSample/.idea/modules/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databinding/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databinding/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/databinding/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxDemo1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/RxDemo1/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
