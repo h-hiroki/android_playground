@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        asyncSubjectDemo1();
+//        asyncSubjectDemo1();
+        asyncSubjectDemo2();
     }
 
     void asyncSubjectDemo1() {
@@ -35,6 +36,25 @@ public class MainActivity extends AppCompatActivity {
 
         asyncSubject.subscribe(getFirstObserver());
         asyncSubject.subscribe(getSecondObserver());
+        asyncSubject.subscribe(getThirdObserver());
+    }
+
+    void asyncSubjectDemo2() {
+
+        AsyncSubject<String> asyncSubject = AsyncSubject.create();
+
+
+        asyncSubject.subscribe(getFirstObserver());
+
+        asyncSubject.onNext("JAVA");
+        asyncSubject.onNext("KOTLIN");
+        asyncSubject.onNext("XML");
+
+        asyncSubject.subscribe(getSecondObserver());
+
+        asyncSubject.onNext("JSON");
+        asyncSubject.onComplete();
+
         asyncSubject.subscribe(getThirdObserver());
     }
 
